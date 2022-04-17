@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="body-menu" id="menu">
+            <div class="container">
+                <h2 class="brand">Menu</h2>
+                <button type="submit" onclick="menuClose()">
+                    <img src="./assets/svgs/x-lg-svgrepo-com.svg" alt="">
+                </button>
+            </div>
+            
+            <div class="body-menu-sub">
+                <a href="index.html" class="menu-linker" id="clickerClose">
+                    <div class="sub-container">
+                        <p>Home</p>
+                    </div>
+                </a>
+                <a href="#projects" class="menu-linker" id="clickerClose">
+                    <div class="sub-container">
+                        <p>My Projects</p>
+                    </div>
+                </a>
+                <a href="#contacts" class="menu-linker" id="clickerClose">
+                    <div class="sub-container">
+                        <p>Contactos</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="container">
+            <div>
+                <h2 class="brand">Pedro Mota</h2>
+            </div>
+            <button type="submit" onclick="menuOpen()">
+                <img src="./assets/svgs/menu-svgrepo-com.svg" alt="">
+            </button>
+        </div>
+    </div>
+    <div class="smooth layer1"></div>
+    <section id="about">
+        <div class="section-container">
+            <div class="block">
+                <div class="col">
+                    <div class="miniheading">
+                        <h6 style="color: #FA7268 !important;;">Quem sou?</h6>
+                    </div>
+    
+                    <div class="heading-section">
+                        <h4>Prazer, sou o Pedro Mota e isto é o meu portfolio</h4>
+                    </div>
+    
+                    <div class="description">
+                        <p>Sou um estudante de multimédia, atualmente na escola EPCI ( <i> <u> <a href="https://epci.pt">Escola Profissional de Comunicação e Imagem</a> </u>  </i> ), um dos meus grandes sonhos é tornar-me num Designer com bastante sucesso de momento faço <b>Edição de video, Imagem e Som.</b> Consigo fazer <b>Logotipos</b> com bastante creatividade e consigo também fazer WebSites em Wordpress e do começo com <b>HTML CSS</b> e um bocado de <b>Javascript</b> </p>
+                        <div class="btnsection">
+                            <a href="#projects" class="sub-btn">Aqui tens alguns dos meus projectos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="smooth layer2"></div>
+    <section class="orange" id="projects">
+        <div class="section-container">
+            <div class="header-body">
+                <span class="txt-darker">
+                    Impressão
+                </span>
+            </div>
+            <div class="block">
+                <div class="col">
+                    <div class="card">
+                        <img src="./pictures/imgs/flyer.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="./pictures/imgs/flyer2.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="./pictures/imgs/flyer3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./pictures/imgs/flyer4.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="./pictures/imgs/Muppie.jpg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="./pictures/imgs/Mupi.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="smooth layer3"></div>
+    <section class="darkorange">
+        <div class="section-container">
+            <div class="header-body">
+                <span class="txt-bright">
+                    Logotipos
+                </span>
+            </div>
+            <div class="block">
+                <div class="col">
+                    <div class="card bg-white">
+                        <img src="./pictures/svgs/CyberDsn.svg" alt="">
+                    </div>
+                    <div class="card bg-white">
+                        <img src="./pictures/svgs/GamesMemory.svg" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-white">
+                        <img src="./pictures/svgs/marketland.svg" alt="">
+                    </div>
+                    <div class="card bg-white">
+                        <img src="./pictures/svgs/savagesport.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="smooth layer4"></div>
+    <section id="Videos">
+        <!-- JUST FOR VIDEOSSSS -->
+
+        <div class="video-container">
+            <div class="grid-system-videos">
+                <div class="col-videos">
+                    <div class="video-card">
+                        <span class="VIDEO-SPAN" for="video">Animação do Logotipo</span>
+                        <video src="./pictures/videos/animacoes/Comp 1.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <video src="./pictures/videos/TrackCamera/video render.mp4" controls></video>
+                    </div>
+                </div>
+                <div class="col-videos">
+                    <div class="video-card">
+                        <span class="VIDEO-SPAN" for="video">Teaser 8s para PAP</span>
+                        <video src="./pictures/videos/Trailler/TeaserPAP.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <span class="VIDEO-SPAN" for="video">Video Trailler Desportivo</span>
+                        <video src="./pictures/videos/Trailler/Trailler Desportos.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <span class="VIDEO-SPAN" for="video">Video promocional</span>
+                        <video src="./pictures/videos/Trailler/Video Promocional.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script>
+    var open = false
+
+    // window.addEventListener('load', function(){
+    //     document.getElementById('menu').style.display = "none"
+    // })
+    document.getElementById('clickerClose').addEventListener('click', menuClose())
+    function menuOpen(){
+        console.log(open);
+        document.getElementById('menu').style.display = "block"
+    }
+
+    function menuClose(){
+
+        document.getElementById('menu').style.display = "none"
+        console.log(open);
+        
+    }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="./appsJS/parallax.js-1.5.0/parallax.js"></script>
+<script>
+
+$('.parallax-window').parallax({
+    imageSrc: './pictures/imgs/Mascara-(1).jpg',
+    speed: 0.2
+    });
+</script>
+</html>
